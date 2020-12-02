@@ -1,4 +1,4 @@
-# Endpoint name
+# Get call/ TableNO
 
 property | description
 -------- | -----------
@@ -61,7 +61,7 @@ curl -X GET "http://URL/tableNo?id=99"
 
 
 
-<!-- This is the call which is sent when the server wants to get the bill the GET request includes the table number.  The order number is included in the response. Take out orders are table 99. When this is printed, the customer can pay the bill.  -->
+ This is the call which is sent when the server wants to get the bill the GET request includes the table number.  The order number is included in the response. Take out orders are table 99. When this is printed, the customer can pay the bill.  
 
 ### Response
 
